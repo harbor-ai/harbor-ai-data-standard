@@ -1,0 +1,313 @@
+section {
+  margin-top: 50px;
+}
+
+.col-md-7, .col-md-5 {
+  padding: 0;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+li {
+  font-size: 18.004px;
+  line-height: 1.722169;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+
+.container-fluid {
+  background-color: #ecf0f1;
+  margin: 35px auto 40px auto;
+}
+
+.footer-8 .container {
+  margin-top: 0;
+}
+
+.row  {
+  padding: 0 20px
+}
+
+.row-2 {
+  padding-top: 20px;
+}
+
+.title-header.electrician  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/divrisk-content/180/electrician-1-min.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+.title-header.plumber  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/divrisk-content/181/plumber-1-min.jpg") no-repeat fixed -600px -300px;
+  background-size: cover;
+}
+
+.title-header.vacant-bdg  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/divrisk-content/182/vacant-bdg-1-min.jpg") no-repeat fixed 0 -470px;
+  background-size: cover;
+}
+
+.title-header.welder  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/divrisk-content/183/welder-1-min.jpg") no-repeat fixed center -350px;
+  background-size: cover;
+}
+
+.title-header.hvac  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/divrisk-content/184/hvac-1-min.jpg") no-repeat fixed center -350px;
+  background-size: cover;
+}
+
+.title-header.professional-liability  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/harbor-ai-content/professional-liability/professional-liability-3-min.jpg") no-repeat fixed center -20px;
+  background-size: cover;
+}
+
+.title-header.product-liability  {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background: url("https://www.harboraicontent.com/harbor-ai-content/product-liability/product-liability-1-min.jpg") no-repeat fixed center -20px;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 60px 0;
+}
+
+.get-quotes-btn{
+  color: #fff;
+  background-color: #36c9ff;
+  width: 200px;
+  height: 75px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.get-quotes-btn:hover {
+  border: 2px solid #36c9ff;
+  background-color: #fff;
+  color: #36c9ff;
+}
+
+.pic-wrapper {
+  padding: 0 0 0 30px;
+}
+
+.float-left {
+	float: left;
+  margin: 0 30px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 10px 30px;
+}
+
+.desc-wrapper p {
+  text-align: justify;
+}
+
+.col-1 {
+  padding-bottom: 20px;
+}
+
+.contacts-2.bg-clouds {
+  margin-top: 0;
+}
+
+.contacts-2.bg-clouds {
+  padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  /* section {
+    padding-top: 55px;
+  } */
+  .navbar .navbar-toggle {
+    margin: 0;
+  }
+  .navbar-header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px
+  }
+  .clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    content: normal;
+  }
+  .navbar .brand-holder {
+    width: 180px;
+  }
+  .navbar .brand {
+    padding: 10px 0 0 0;
+  }
+  .navbar-header .brand img {
+    margin: 0;
+  }
+  .container {
+    margin-top: 10px;
+  }
+  .pic-wrapper {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid .row {
+    width: 750px;
+    margin: 40px auto
+  }
+  .container {
+    margin-top: 10px;
+  }
+  .pic-wrapper {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid .row {
+    width: 970px;
+    margin: 40px auto
+  }
+  .pic-wrapper {
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid .row {
+    width: 1170px;
+    margin: 40px auto
+  }
+  .pic-wrapper {
+    padding: 0 0 0 30px;
+  }
+}
+
+
+
+/* Accordion */
+
+#accordion {
+	margin: 30px 0 50px 0
+}
+
+#accordion .card {
+  margin-bottom: 1rem;
+}
+
+#accordion button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: inherit !important;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+#accordion h5 {
+  color: black;
+	font-size: 1.1em;
+}
+
+#accordion button .symbol:before {
+  color: #000;
+  content: "-";
+  margin-right: 8px;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+#accordion button.collapsed .symbol:before {
+  content: "+";
+  margin-right: 0;
+}
+
+#accordion button:hover, #accordion button:focus {
+   text-decoration: none;
+}
+
+#accordion .card-header {
+	padding: 0.5em 1.25em;
+	border-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+
+}
+
+#accordion .card-header .btn {
+	white-space: normal;
+	text-align: left;
+
+}
+
+#accordion .card {
+	margin-bottom: 0;
+	border-radius: 0;
+	/* border-radius: 1px solid rgba(0,0,0,.125) */
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+#accordion .card-body {
+	border-radius: 0;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  #accordion h5 {
+		font-size: 1em;
+	}
+}

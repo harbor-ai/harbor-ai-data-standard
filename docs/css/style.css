@@ -1,0 +1,288 @@
+
+/*
+.harbor-technology {
+    
+    background-image: url("../common-files/img/boatstrip-smoothed.png");
+    background-repeat: no-repeat;
+    background-size: 1500px ;
+}
+*/
+
+
+
+.harbor-carrier {
+  background-image: url("../common-files/img/rain-color-umbrella.jpg");
+  filter: alpha(opacity=100);
+    background-repeat: no-repeat;
+    background-size: 1500px ;
+    background-position: center;
+  opacity: 1.0;
+}
+
+
+
+.header-1-sub .pt-page-1 .background {
+  background-image: url("../img/greenstones.jpg");
+  opacity: 75;
+  filter: alpha(opacity=7500);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  background-position: 50% 30%;
+}
+
+.header-1-sub .pt-page-2 .background {
+  background-image: url("../img/vital-ai-postcard-back-.jpg");
+  opacity: 75;
+  filter: alpha(opacity=7500);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  background-position: 50% 30%;
+}
+
+.header-1-sub .pt-page-3 .background {
+  background-image: url("../img/stones6.jpg");
+  opacity: 75;
+  filter: alpha(opacity=7500);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  background-position: 50% 30%;
+}
+
+.header-1-sub .pt-page-3 h3 {
+    text-align: center;
+
+  color: #EEEEEE;
+  }
+
+  .header-1-sub .pt-page-3 .lead {
+  color: #EEEEEE;
+  }
+
+  .header-1-sub .pt-page-2 h3 {
+      text-align: center;
+
+  color: #EEEEEE;
+  }
+
+  .header-1-sub .pt-page-2 .lead {
+  color: #EEEEEE;
+  }
+
+.header-1-sub .pt-page-1 h3 {
+  text-align: center;
+  color: #EEEEEE;
+  }
+
+  .header-1-sub .pt-page-1 .lead {
+  color: #EEEEEE;
+  }
+
+.hero-unit {
+  color: #EEEEEE;
+  background-color: #FF0000;
+}
+
+/* for team memebrs */
+
+.member-wrapper {
+
+  vertical-align: top;
+}
+
+
+/* experiment for bottom aligning content */
+
+
+/*
+.row-fluid .span6 {
+width: 66.6%;
+display: table-cell;
+vertical-align: bottom;
+    float: none;
+}
+
+.row-fluid .span3 {
+width: 33.3%;
+display: table-cell;
+vertical-align: bottom;
+    float: none;
+}
+*/
+
+    /*
+.blog-content {
+    margin-top: -25%;
+    vertical-align: top;
+    border: 10px black solid;
+    display: inline-block;
+    float: none;
+    */
+}
+
+
+
+
+
+.content-11.subscribe-form input[type="text"], .content-11.subscribe-form input[type="email"] {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #34495E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    height: auto;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+ .content-11.subscribe-form .row {
+    height: 180px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+ .content-11.subscribe-form .row {
+    height: 120px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .content-11.subscribe-form .row {
+    height: 60px;
+  }
+}
+
+
+.map iframe {
+  pointer-events: none;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos a {
+  margin: 0 2rem;
+}
+
+.navbar-collapse.collapse {
+    display: none;
+}
+
+@media (min-width: 1175px) {
+  .collapse.navbar-collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 1174px) {
+  .navbar-header {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1175px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+.content-36 .btn-info {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    margin: 0 0 55px;
+}
+
+@media (min-width: 800px) {
+  .content-36 .btn-info {
+      font-size: 22px;
+  }
+}
+
+.section__content {
+  margin-top: 3rem;
+}
+
+.section__content h3 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  section.insurance-marketplace .row, section.wholesale .row, section.agents .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .hide-desktop {
+    order: 2;
+  }
+  .section__content {
+    margin-top: 0;
+  }
+  .section__content h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  section.insurance-marketplace {
+    background-image: url('../common-files/img/skyscrapers.jpg');
+    background-position: right;
+    background-size: cover;
+  } 
+  section.wholesale {
+    background-image: url('../common-files/img/world.jpg');
+    background-position: right;
+    background-size: cover;
+  }
+  section.agents {
+    background-image: url('../common-files/img/money-and-stair-cloud.jpg');
+    background-position: right;
+    background-size: cover;
+  }
+  section.specialty-solutions {
+    background-image: url('../common-files/img/plane-paper.jpg');
+    background-position: right;
+    background-size: cover;
+  }
+
+  .section__content {
+    background: rgba(255,255,255,.7);
+    border: 1px solid white;
+    padding: 20px;
+  }
+  .hide-desktop {
+    display: none;
+  }
+}
+
+
+.front h2 {
+  display: inline-block;
+  padding: 10px;
+}
+
+.row.features h5 {
+  margin: 4rem 0 3rem 0;
+}
+
+.footer-8 {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+
+.contacts-2 .links a {
+  font-size: 14px;
+}
+
+section.policy {
+  padding: 8rem 4rem 2rem 4rem;
+}
